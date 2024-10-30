@@ -14,5 +14,19 @@
     display: flex;
 }
 .body{
-    background-color: gold;
+    background-color: plum;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.info h3{
+    padding-right: 20px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
 }
