@@ -2,22 +2,37 @@
     display: flex;
     background-color: antiquewhite;
     flex-flow: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 .nav ul{
+    padding: 0px;
     display: flex;
     flex-flow: row;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 .nav li{
     margin: 20px;
     display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+
+}
+body{
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    height: 100vh;
+    font-size: 1.2rem;
+    margin: 0px;
 }
 .body{
     background-color: plum;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex-grow: 1;
 }
 .info{
     display: flex;
@@ -39,4 +54,22 @@ img{
     height: 20vh;
     width: 20vw;
     border: 2px black solid;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-top: 100vh;
+}
+.aboute{
+    background-color: green;
+    border: 0.2vw black solid;
+    margin: 0.2vw;
+    font-size: 1.5rem;
+}
+#p2{
+    background-color: red;
+}
+#p3{
+    background-color: blue;
 }
